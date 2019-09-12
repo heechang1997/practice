@@ -1,0 +1,10 @@
+website like an app 'whisper app'
+
+structure of the homepage
+    - home
+    - register, login
+    - secrets
+
+user account
+    get email and password and store it on mangoose+magoDB
+     
