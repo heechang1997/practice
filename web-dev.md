@@ -1,0 +1,34 @@
+# Web Development
+
+taking a course from app brewery about the web development
+
+|                    |     |
+| ------------------ | --- |
+| FrontEnd           |     |
+| 1. HTML            |     |
+| 2. CSS             |     |
+| 3. Bootstrap       |     |
+| 4. JS              |     |
+| 5. DOM             |     |
+| 6. JS & DOM        |     |
+| 7. jQuery          |     |
+|                    |     |
+| BackEnd            |     |
+| 1. cmd             |     |
+| 2. NodeJS          |     |
+| 3. ExpressJS       |     |
+| 4. GIT             |     |
+| 5. API             |     |
+| 6. EJS             |     |
+| 7. SQL             |     |
+| 8. MongoDB         |     |
+| 9.                 |     |
+| 10.                |     |
+| 11. deploy Web     |     |
+| 12. Restful API    |     |
+| 13. Authentication |     |
+|                    |     |
+
+
+### comments
+- can host a website in github
