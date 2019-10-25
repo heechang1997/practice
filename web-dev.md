@@ -10,8 +10,10 @@ taking a course from app brewery about the web development
 | 3. Bootstrap       |     |
 | 4. JS              |     |
 | 5. DOM             |     |
+| -. Dicee Game      |     |
 | 6. JS & DOM        |     |
 | 7. jQuery          |     |
+| -. Simon Game      |     |
 |                    |     |
 | BackEnd            |     |
 | 1. cmd             |     |
@@ -20,9 +22,10 @@ taking a course from app brewery about the web development
 | 4. GIT             |     |
 | 5. API             |     |
 | 6. EJS             |     |
+| -. Blog            |     |
 | 7. SQL             |     |
 | 8. MongoDB         |     |
-| 9.                 |     |
+| 9. Mongoose        |     |
 | 10.                |     |
 | 11. deploy Web     |     |
 | 12. Restful API    |     |
