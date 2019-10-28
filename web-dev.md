@@ -1,5 +1,7 @@
 # Web Development
 
+[resource](https://www.appbrewery.co/p/web-development-course-resources/)
+
 taking a course from app brewery about the web development
 
 |                    |     |
