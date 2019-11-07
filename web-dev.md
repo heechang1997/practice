@@ -34,6 +34,6 @@ taking a course from app brewery about the web development
 | 13. Authentication |     |
 |                    |     |
 
+## comments
 
-### comments
 - can host a website in github
