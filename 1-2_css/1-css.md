@@ -13,3 +13,7 @@ attributes : color
 internal : style tag and body {} ...
 
 hr --> can select length, percentage
+
+## CSS
+
+- box model : border, width, padding, margin

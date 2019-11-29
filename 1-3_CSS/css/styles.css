@@ -1,0 +1,31 @@
+/* 
+CSS display : block, inline, inline-block, none
+    block elements: div, h1 --> to avoid use <span class="">:inline display
+
+CSS position : static(html rule), relative, absolute(relative to parent), fixed
+*/
+
+body {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+h1 {
+    margin-top: 0;
+}
+
+.top-container {
+    padding: 30px;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+/* p {
+    display: inline;
+} */
