@@ -4,6 +4,7 @@ npm i body-parser express request
 get, post : receive data
 mailchimp API : send data using API
 show user success or failure message
+host on heroku
 */
 const bodyParser = require("body-parser")
 const express = require("express")
@@ -41,10 +42,10 @@ app.post("/", function(req, res) {
     var jsonData = JSON.stringify(data);
 
     var options = {
-        url: "https://us5.api.mailchimp.com/3.0/lists/91fb0b8676",
+        url: "",
         method: "POST",
         headers: { // for authentication
-            "Authorization": "heechangkang 081a381b530db55ab97464d7e70dfe41-us5"
+            "Authorization": ""
         },
         body: jsonData
     }
@@ -52,16 +53,24 @@ app.post("/", function(req, res) {
     request(options, function(error, response, body) {
         if(error) {
             console.log(error)
+            res.sendFile(__dirname + "/failure.html")
         }else {
             console.log(response.statusCode);
+            if(response.statusCode === 200){
+                res.sendFile(__dirname + "/success.html");
+            }else {
+                res.sendFile(__dirname + "/failure.html")
+            }
         }
     })
 })
 
-app.listen(3000, function(){
+app.post("/failure", function(req, res){
+    res.redirect("/");
+})
+
+app.listen(process.env.PORT || 3000, function(){
     console.log("running in port 3000")
 });
 
-// API key :  081a381b530db55ab97464d7e70dfe41-us5
 
-// list_id : 91fb0b8676
