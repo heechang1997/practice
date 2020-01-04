@@ -5,8 +5,8 @@
 
 
 2-2_NodeJS/node_modules/
-2-3_ExpressJS_calculator-website/node_modules/
-2-3_ExpressJS_bmiCalculator/node_modules/
+2-3_ExpressJS-calculator/node_modules/
+2-3_ExpressJS-bmiCalculator/node_modules/
 2-3_ExpressJS/node_modules/
 
 2-5_API_btc-ticker/node_modules/
@@ -14,5 +14,3 @@
 2-6_EJS/node_modules
 2-6---_Blog/node_modules
 2-8_MongoDB/FruitsProject/node_modules
-
-2-13_authentication/node_modules/

@@ -29,7 +29,7 @@ const articleSchema = {
 const Article = mongoose.model("Article", articleSchema)
 
 
-//
+// ROUTE
 app.get("/articles", function(req, res) {
     Article.find(function(err, articles) {
         if (!err){
