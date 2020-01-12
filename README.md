@@ -42,3 +42,7 @@ taking a course from app brewery about the web development
 
 ### hacking 101
 
+## resource
+
+minifier.org
+

@@ -5,8 +5,17 @@
 ### selecting
 document.querySelector("li");
 document.querySelector("#title");
-document.getElementByTagName("");
+document.getElementByTagName("li");
 document.getElementByClassName("");
+
 
 ### manipulator
 document.querySelector("h1").style.color = "red"
+document.querySelector("h1").classList.add("huge");
+
+document.querySelector("h1").innerHTML = "hello";
+
+
+element : just write ex)body
+id : #
+class : .
